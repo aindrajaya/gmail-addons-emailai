@@ -1,0 +1,23 @@
+{
+  "timeZone": "Asia/Jakarta",
+  "dependencies": {
+    "enabledAdvancedServices": []
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/gmail.addons.execute", 
+    "https://www.googleapis.com/auth/gmail.readonly",
+    "https://www.googleapis.com/auth/spreadsheets", 
+    "https://www.googleapis.com/auth/script.external_request"
+  ],
+  "gmail": {
+    "name": "ChainX Security AI",
+    "logoUrl": "https://res.cloudinary.com/dmg3buzby/image/upload/v1770700831/default_ijybia.webp",
+    "contextualTriggers": [{
+      "unconditional": {},
+      "onTriggerFunction": "loadMainCard"
+    }],
+    "primaryColor": "#4285F4",
+    "secondaryColor": "#34A853"
+  }
+}
